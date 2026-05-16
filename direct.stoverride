@@ -1,4 +1,5 @@
-rules:
-  - GEOSITE,apple,DIRECT
-  - GEOIP,apple,DIRECT
-  - DOMAIN-KEYWORD,furaffinity,DIRECT
+override:
+  rules:
+    - GEOSITE,apple,DIRECT
+    - GEOIP,apple,DIRECT
+    - DOMAIN-KEYWORD,furaffinity,DIRECT
